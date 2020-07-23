@@ -58,11 +58,11 @@ export default postcss.plugin('postcss-help-media-queries', opts => {
 			extraLarge: '100em'
 		},
 		densities: {
-			'1x': '160dpi',
-			'1.5x': '240dpi',
-			'2x': '320dpi',
-			'3x': '480dpi',
-			'4x': '640dpi'
+			'1x': '96dpi',
+			'1.5x': '144dpi',
+			'2x': '192dpi',
+			'3x': '288dpi',
+			'4x': '384dpi'
 		},
 		orientation: [
 			'',
