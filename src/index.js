@@ -112,7 +112,7 @@ export default postcss.plugin('postcss-help-media-queries', opts => {
 					let content = createContentString(densitySize, densityName, breakpointSize, breakpointName, orientationName)
 
 					let mediaQueryString = `\
-\n@media ${mediaQuery} {
+\n@media screen and ${mediaQuery} {
 	:root::after {
 		content: '${content}';
 	}
