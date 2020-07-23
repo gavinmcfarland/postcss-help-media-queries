@@ -1,0 +1,451 @@
+
+@media (min-resolution: 96dpi) {
+	:root::after {
+		content: 'Density: 96dpi (1x)';
+	}
+}
+@media (min-resolution: 96dpi) and (orientation: portrait) {
+	:root::after {
+		content: 'Density: 96dpi (1x)\a Orientation: Portrait';
+	}
+}
+@media (min-resolution: 96dpi) and (orientation: landscape) {
+	:root::after {
+		content: 'Density: 96dpi (1x)\a Orientation: Landscape';
+	}
+}
+@media (min-resolution: 96dpi) and (min-width: 30em) {
+	:root::after {
+		content: 'Density: 96dpi (1x)\a Breakpoint: extraSmall 30em';
+	}
+}
+@media (min-resolution: 96dpi) and (min-width: 30em) and (orientation: portrait) {
+	:root::after {
+		content: 'Density: 96dpi (1x)\a Breakpoint: extraSmall 30em\a Orientation: Portrait';
+	}
+}
+@media (min-resolution: 96dpi) and (min-width: 30em) and (orientation: landscape) {
+	:root::after {
+		content: 'Density: 96dpi (1x)\a Breakpoint: extraSmall 30em\a Orientation: Landscape';
+	}
+}
+@media (min-resolution: 96dpi) and (min-width: 48em) {
+	:root::after {
+		content: 'Density: 96dpi (1x)\a Breakpoint: small 48em';
+	}
+}
+@media (min-resolution: 96dpi) and (min-width: 48em) and (orientation: portrait) {
+	:root::after {
+		content: 'Density: 96dpi (1x)\a Breakpoint: small 48em\a Orientation: Portrait';
+	}
+}
+@media (min-resolution: 96dpi) and (min-width: 48em) and (orientation: landscape) {
+	:root::after {
+		content: 'Density: 96dpi (1x)\a Breakpoint: small 48em\a Orientation: Landscape';
+	}
+}
+@media (min-resolution: 96dpi) and (min-width: 60em) {
+	:root::after {
+		content: 'Density: 96dpi (1x)\a Breakpoint: medium 60em';
+	}
+}
+@media (min-resolution: 96dpi) and (min-width: 60em) and (orientation: portrait) {
+	:root::after {
+		content: 'Density: 96dpi (1x)\a Breakpoint: medium 60em\a Orientation: Portrait';
+	}
+}
+@media (min-resolution: 96dpi) and (min-width: 60em) and (orientation: landscape) {
+	:root::after {
+		content: 'Density: 96dpi (1x)\a Breakpoint: medium 60em\a Orientation: Landscape';
+	}
+}
+@media (min-resolution: 96dpi) and (min-width: 80em) {
+	:root::after {
+		content: 'Density: 96dpi (1x)\a Breakpoint: large 80em';
+	}
+}
+@media (min-resolution: 96dpi) and (min-width: 80em) and (orientation: portrait) {
+	:root::after {
+		content: 'Density: 96dpi (1x)\a Breakpoint: large 80em\a Orientation: Portrait';
+	}
+}
+@media (min-resolution: 96dpi) and (min-width: 80em) and (orientation: landscape) {
+	:root::after {
+		content: 'Density: 96dpi (1x)\a Breakpoint: large 80em\a Orientation: Landscape';
+	}
+}
+@media (min-resolution: 96dpi) and (min-width: 100em) {
+	:root::after {
+		content: 'Density: 96dpi (1x)\a Breakpoint: extraLarge 100em';
+	}
+}
+@media (min-resolution: 96dpi) and (min-width: 100em) and (orientation: portrait) {
+	:root::after {
+		content: 'Density: 96dpi (1x)\a Breakpoint: extraLarge 100em\a Orientation: Portrait';
+	}
+}
+@media (min-resolution: 96dpi) and (min-width: 100em) and (orientation: landscape) {
+	:root::after {
+		content: 'Density: 96dpi (1x)\a Breakpoint: extraLarge 100em\a Orientation: Landscape';
+	}
+}
+@media (min-resolution: 144dpi) {
+	:root::after {
+		content: 'Density: 144dpi (15x)';
+	}
+}
+@media (min-resolution: 144dpi) and (orientation: portrait) {
+	:root::after {
+		content: 'Density: 144dpi (15x)\a Orientation: Portrait';
+	}
+}
+@media (min-resolution: 144dpi) and (orientation: landscape) {
+	:root::after {
+		content: 'Density: 144dpi (15x)\a Orientation: Landscape';
+	}
+}
+@media (min-resolution: 144dpi) and (min-width: 30em) {
+	:root::after {
+		content: 'Density: 144dpi (15x)\a Breakpoint: extraSmall 30em';
+	}
+}
+@media (min-resolution: 144dpi) and (min-width: 30em) and (orientation: portrait) {
+	:root::after {
+		content: 'Density: 144dpi (15x)\a Breakpoint: extraSmall 30em\a Orientation: Portrait';
+	}
+}
+@media (min-resolution: 144dpi) and (min-width: 30em) and (orientation: landscape) {
+	:root::after {
+		content: 'Density: 144dpi (15x)\a Breakpoint: extraSmall 30em\a Orientation: Landscape';
+	}
+}
+@media (min-resolution: 144dpi) and (min-width: 48em) {
+	:root::after {
+		content: 'Density: 144dpi (15x)\a Breakpoint: small 48em';
+	}
+}
+@media (min-resolution: 144dpi) and (min-width: 48em) and (orientation: portrait) {
+	:root::after {
+		content: 'Density: 144dpi (15x)\a Breakpoint: small 48em\a Orientation: Portrait';
+	}
+}
+@media (min-resolution: 144dpi) and (min-width: 48em) and (orientation: landscape) {
+	:root::after {
+		content: 'Density: 144dpi (15x)\a Breakpoint: small 48em\a Orientation: Landscape';
+	}
+}
+@media (min-resolution: 144dpi) and (min-width: 60em) {
+	:root::after {
+		content: 'Density: 144dpi (15x)\a Breakpoint: medium 60em';
+	}
+}
+@media (min-resolution: 144dpi) and (min-width: 60em) and (orientation: portrait) {
+	:root::after {
+		content: 'Density: 144dpi (15x)\a Breakpoint: medium 60em\a Orientation: Portrait';
+	}
+}
+@media (min-resolution: 144dpi) and (min-width: 60em) and (orientation: landscape) {
+	:root::after {
+		content: 'Density: 144dpi (15x)\a Breakpoint: medium 60em\a Orientation: Landscape';
+	}
+}
+@media (min-resolution: 144dpi) and (min-width: 80em) {
+	:root::after {
+		content: 'Density: 144dpi (15x)\a Breakpoint: large 80em';
+	}
+}
+@media (min-resolution: 144dpi) and (min-width: 80em) and (orientation: portrait) {
+	:root::after {
+		content: 'Density: 144dpi (15x)\a Breakpoint: large 80em\a Orientation: Portrait';
+	}
+}
+@media (min-resolution: 144dpi) and (min-width: 80em) and (orientation: landscape) {
+	:root::after {
+		content: 'Density: 144dpi (15x)\a Breakpoint: large 80em\a Orientation: Landscape';
+	}
+}
+@media (min-resolution: 144dpi) and (min-width: 100em) {
+	:root::after {
+		content: 'Density: 144dpi (15x)\a Breakpoint: extraLarge 100em';
+	}
+}
+@media (min-resolution: 144dpi) and (min-width: 100em) and (orientation: portrait) {
+	:root::after {
+		content: 'Density: 144dpi (15x)\a Breakpoint: extraLarge 100em\a Orientation: Portrait';
+	}
+}
+@media (min-resolution: 144dpi) and (min-width: 100em) and (orientation: landscape) {
+	:root::after {
+		content: 'Density: 144dpi (15x)\a Breakpoint: extraLarge 100em\a Orientation: Landscape';
+	}
+}
+@media (min-resolution: 192dpi) {
+	:root::after {
+		content: 'Density: 192dpi (2x)';
+	}
+}
+@media (min-resolution: 192dpi) and (orientation: portrait) {
+	:root::after {
+		content: 'Density: 192dpi (2x)\a Orientation: Portrait';
+	}
+}
+@media (min-resolution: 192dpi) and (orientation: landscape) {
+	:root::after {
+		content: 'Density: 192dpi (2x)\a Orientation: Landscape';
+	}
+}
+@media (min-resolution: 192dpi) and (min-width: 30em) {
+	:root::after {
+		content: 'Density: 192dpi (2x)\a Breakpoint: extraSmall 30em';
+	}
+}
+@media (min-resolution: 192dpi) and (min-width: 30em) and (orientation: portrait) {
+	:root::after {
+		content: 'Density: 192dpi (2x)\a Breakpoint: extraSmall 30em\a Orientation: Portrait';
+	}
+}
+@media (min-resolution: 192dpi) and (min-width: 30em) and (orientation: landscape) {
+	:root::after {
+		content: 'Density: 192dpi (2x)\a Breakpoint: extraSmall 30em\a Orientation: Landscape';
+	}
+}
+@media (min-resolution: 192dpi) and (min-width: 48em) {
+	:root::after {
+		content: 'Density: 192dpi (2x)\a Breakpoint: small 48em';
+	}
+}
+@media (min-resolution: 192dpi) and (min-width: 48em) and (orientation: portrait) {
+	:root::after {
+		content: 'Density: 192dpi (2x)\a Breakpoint: small 48em\a Orientation: Portrait';
+	}
+}
+@media (min-resolution: 192dpi) and (min-width: 48em) and (orientation: landscape) {
+	:root::after {
+		content: 'Density: 192dpi (2x)\a Breakpoint: small 48em\a Orientation: Landscape';
+	}
+}
+@media (min-resolution: 192dpi) and (min-width: 60em) {
+	:root::after {
+		content: 'Density: 192dpi (2x)\a Breakpoint: medium 60em';
+	}
+}
+@media (min-resolution: 192dpi) and (min-width: 60em) and (orientation: portrait) {
+	:root::after {
+		content: 'Density: 192dpi (2x)\a Breakpoint: medium 60em\a Orientation: Portrait';
+	}
+}
+@media (min-resolution: 192dpi) and (min-width: 60em) and (orientation: landscape) {
+	:root::after {
+		content: 'Density: 192dpi (2x)\a Breakpoint: medium 60em\a Orientation: Landscape';
+	}
+}
+@media (min-resolution: 192dpi) and (min-width: 80em) {
+	:root::after {
+		content: 'Density: 192dpi (2x)\a Breakpoint: large 80em';
+	}
+}
+@media (min-resolution: 192dpi) and (min-width: 80em) and (orientation: portrait) {
+	:root::after {
+		content: 'Density: 192dpi (2x)\a Breakpoint: large 80em\a Orientation: Portrait';
+	}
+}
+@media (min-resolution: 192dpi) and (min-width: 80em) and (orientation: landscape) {
+	:root::after {
+		content: 'Density: 192dpi (2x)\a Breakpoint: large 80em\a Orientation: Landscape';
+	}
+}
+@media (min-resolution: 192dpi) and (min-width: 100em) {
+	:root::after {
+		content: 'Density: 192dpi (2x)\a Breakpoint: extraLarge 100em';
+	}
+}
+@media (min-resolution: 192dpi) and (min-width: 100em) and (orientation: portrait) {
+	:root::after {
+		content: 'Density: 192dpi (2x)\a Breakpoint: extraLarge 100em\a Orientation: Portrait';
+	}
+}
+@media (min-resolution: 192dpi) and (min-width: 100em) and (orientation: landscape) {
+	:root::after {
+		content: 'Density: 192dpi (2x)\a Breakpoint: extraLarge 100em\a Orientation: Landscape';
+	}
+}
+@media (min-resolution: 288dpi) {
+	:root::after {
+		content: 'Density: 288dpi (3x)';
+	}
+}
+@media (min-resolution: 288dpi) and (orientation: portrait) {
+	:root::after {
+		content: 'Density: 288dpi (3x)\a Orientation: Portrait';
+	}
+}
+@media (min-resolution: 288dpi) and (orientation: landscape) {
+	:root::after {
+		content: 'Density: 288dpi (3x)\a Orientation: Landscape';
+	}
+}
+@media (min-resolution: 288dpi) and (min-width: 30em) {
+	:root::after {
+		content: 'Density: 288dpi (3x)\a Breakpoint: extraSmall 30em';
+	}
+}
+@media (min-resolution: 288dpi) and (min-width: 30em) and (orientation: portrait) {
+	:root::after {
+		content: 'Density: 288dpi (3x)\a Breakpoint: extraSmall 30em\a Orientation: Portrait';
+	}
+}
+@media (min-resolution: 288dpi) and (min-width: 30em) and (orientation: landscape) {
+	:root::after {
+		content: 'Density: 288dpi (3x)\a Breakpoint: extraSmall 30em\a Orientation: Landscape';
+	}
+}
+@media (min-resolution: 288dpi) and (min-width: 48em) {
+	:root::after {
+		content: 'Density: 288dpi (3x)\a Breakpoint: small 48em';
+	}
+}
+@media (min-resolution: 288dpi) and (min-width: 48em) and (orientation: portrait) {
+	:root::after {
+		content: 'Density: 288dpi (3x)\a Breakpoint: small 48em\a Orientation: Portrait';
+	}
+}
+@media (min-resolution: 288dpi) and (min-width: 48em) and (orientation: landscape) {
+	:root::after {
+		content: 'Density: 288dpi (3x)\a Breakpoint: small 48em\a Orientation: Landscape';
+	}
+}
+@media (min-resolution: 288dpi) and (min-width: 60em) {
+	:root::after {
+		content: 'Density: 288dpi (3x)\a Breakpoint: medium 60em';
+	}
+}
+@media (min-resolution: 288dpi) and (min-width: 60em) and (orientation: portrait) {
+	:root::after {
+		content: 'Density: 288dpi (3x)\a Breakpoint: medium 60em\a Orientation: Portrait';
+	}
+}
+@media (min-resolution: 288dpi) and (min-width: 60em) and (orientation: landscape) {
+	:root::after {
+		content: 'Density: 288dpi (3x)\a Breakpoint: medium 60em\a Orientation: Landscape';
+	}
+}
+@media (min-resolution: 288dpi) and (min-width: 80em) {
+	:root::after {
+		content: 'Density: 288dpi (3x)\a Breakpoint: large 80em';
+	}
+}
+@media (min-resolution: 288dpi) and (min-width: 80em) and (orientation: portrait) {
+	:root::after {
+		content: 'Density: 288dpi (3x)\a Breakpoint: large 80em\a Orientation: Portrait';
+	}
+}
+@media (min-resolution: 288dpi) and (min-width: 80em) and (orientation: landscape) {
+	:root::after {
+		content: 'Density: 288dpi (3x)\a Breakpoint: large 80em\a Orientation: Landscape';
+	}
+}
+@media (min-resolution: 288dpi) and (min-width: 100em) {
+	:root::after {
+		content: 'Density: 288dpi (3x)\a Breakpoint: extraLarge 100em';
+	}
+}
+@media (min-resolution: 288dpi) and (min-width: 100em) and (orientation: portrait) {
+	:root::after {
+		content: 'Density: 288dpi (3x)\a Breakpoint: extraLarge 100em\a Orientation: Portrait';
+	}
+}
+@media (min-resolution: 288dpi) and (min-width: 100em) and (orientation: landscape) {
+	:root::after {
+		content: 'Density: 288dpi (3x)\a Breakpoint: extraLarge 100em\a Orientation: Landscape';
+	}
+}
+@media (min-resolution: 384dpi) {
+	:root::after {
+		content: 'Density: 384dpi (4x)';
+	}
+}
+@media (min-resolution: 384dpi) and (orientation: portrait) {
+	:root::after {
+		content: 'Density: 384dpi (4x)\a Orientation: Portrait';
+	}
+}
+@media (min-resolution: 384dpi) and (orientation: landscape) {
+	:root::after {
+		content: 'Density: 384dpi (4x)\a Orientation: Landscape';
+	}
+}
+@media (min-resolution: 384dpi) and (min-width: 30em) {
+	:root::after {
+		content: 'Density: 384dpi (4x)\a Breakpoint: extraSmall 30em';
+	}
+}
+@media (min-resolution: 384dpi) and (min-width: 30em) and (orientation: portrait) {
+	:root::after {
+		content: 'Density: 384dpi (4x)\a Breakpoint: extraSmall 30em\a Orientation: Portrait';
+	}
+}
+@media (min-resolution: 384dpi) and (min-width: 30em) and (orientation: landscape) {
+	:root::after {
+		content: 'Density: 384dpi (4x)\a Breakpoint: extraSmall 30em\a Orientation: Landscape';
+	}
+}
+@media (min-resolution: 384dpi) and (min-width: 48em) {
+	:root::after {
+		content: 'Density: 384dpi (4x)\a Breakpoint: small 48em';
+	}
+}
+@media (min-resolution: 384dpi) and (min-width: 48em) and (orientation: portrait) {
+	:root::after {
+		content: 'Density: 384dpi (4x)\a Breakpoint: small 48em\a Orientation: Portrait';
+	}
+}
+@media (min-resolution: 384dpi) and (min-width: 48em) and (orientation: landscape) {
+	:root::after {
+		content: 'Density: 384dpi (4x)\a Breakpoint: small 48em\a Orientation: Landscape';
+	}
+}
+@media (min-resolution: 384dpi) and (min-width: 60em) {
+	:root::after {
+		content: 'Density: 384dpi (4x)\a Breakpoint: medium 60em';
+	}
+}
+@media (min-resolution: 384dpi) and (min-width: 60em) and (orientation: portrait) {
+	:root::after {
+		content: 'Density: 384dpi (4x)\a Breakpoint: medium 60em\a Orientation: Portrait';
+	}
+}
+@media (min-resolution: 384dpi) and (min-width: 60em) and (orientation: landscape) {
+	:root::after {
+		content: 'Density: 384dpi (4x)\a Breakpoint: medium 60em\a Orientation: Landscape';
+	}
+}
+@media (min-resolution: 384dpi) and (min-width: 80em) {
+	:root::after {
+		content: 'Density: 384dpi (4x)\a Breakpoint: large 80em';
+	}
+}
+@media (min-resolution: 384dpi) and (min-width: 80em) and (orientation: portrait) {
+	:root::after {
+		content: 'Density: 384dpi (4x)\a Breakpoint: large 80em\a Orientation: Portrait';
+	}
+}
+@media (min-resolution: 384dpi) and (min-width: 80em) and (orientation: landscape) {
+	:root::after {
+		content: 'Density: 384dpi (4x)\a Breakpoint: large 80em\a Orientation: Landscape';
+	}
+}
+@media (min-resolution: 384dpi) and (min-width: 100em) {
+	:root::after {
+		content: 'Density: 384dpi (4x)\a Breakpoint: extraLarge 100em';
+	}
+}
+@media (min-resolution: 384dpi) and (min-width: 100em) and (orientation: portrait) {
+	:root::after {
+		content: 'Density: 384dpi (4x)\a Breakpoint: extraLarge 100em\a Orientation: Portrait';
+	}
+}
+@media (min-resolution: 384dpi) and (min-width: 100em) and (orientation: landscape) {
+	:root::after {
+		content: 'Density: 384dpi (4x)\a Breakpoint: extraLarge 100em\a Orientation: Landscape';
+	}
+}
