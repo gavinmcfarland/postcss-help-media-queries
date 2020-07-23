@@ -73,7 +73,7 @@ export default postcss.plugin('postcss-help-media-queries', opts => {
 		]
 	}
 
-	opts = opts || defaults
+	opts = Object.assign(defaults, opts || {})
 
 	let tooltipString = `
 :root::after {
