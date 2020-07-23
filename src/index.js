@@ -75,9 +75,34 @@ export default postcss.plugin('postcss-help-media-queries', opts => {
 
 	opts = opts || defaults
 
+	let tooltipString = `
+:root::after {
+	position: fixed;
+	font-family: -apple-system, BlinkMacSystemFont,'Arial', sans-serif;
+	user-select: none;
+	pointer-events: none;
+	z-index: 999999;
+	bottom: 16px;
+	right: 16px;
+	font-weight: bold;
+	font-size: 11px;
+	line-height: 1.8;
+	box-sizing: border-box;
+	padding: 16px 24px;
+	border-radius: 4px;
+	white-space: pre-wrap;
+	text-transform: capitalize;
+	box-shadow: 0 10px 30px rgba( #000, 0.2 );
+	-webkit-backdrop-filter: blur(2px);
+	backdrop-filter: blur(2px);
+	background-color: rgba( #FFF, 0.95 );
+    color: #212121;
+}
+`
 
 	return (root) => {
 
+		root.prepend(postcss.parse(tooltipString))
 
 		for (const [densityName, densitySize] of Object.entries(opts.densities)) {
 			for (const [breakpointName, breakpointSize] of Object.entries(opts.breakpoints)) {
