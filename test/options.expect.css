@@ -21,6 +21,21 @@
 	background-color: rgba( #FFF, 0.95 );
     color: #212121;
 }
+@media screen and (min-resolution: 160dpi) {
+	:root::after {
+		content: 'Density: 160dpi (1x)';
+	}
+}
+@media screen and (min-resolution: 160dpi) and (orientation: portrait) {
+	:root::after {
+		content: 'Density: 160dpi (1x)\a Orientation: Portrait';
+	}
+}
+@media screen and (min-resolution: 160dpi) and (orientation: landscape) {
+	:root::after {
+		content: 'Density: 160dpi (1x)\a Orientation: Landscape';
+	}
+}
 @media screen and (min-resolution: 160dpi) and (min-width: 20em) {
 	:root::after {
 		content: 'Density: 160dpi (1x)\a Breakpoint: extraSmall 20em';
@@ -94,6 +109,21 @@
 @media screen and (min-resolution: 160dpi) and (min-width: 120em) and (orientation: landscape) {
 	:root::after {
 		content: 'Density: 160dpi (1x)\a Breakpoint: extraLarge 120em\a Orientation: Landscape';
+	}
+}
+@media screen and (min-resolution: 240dpi) {
+	:root::after {
+		content: 'Density: 240dpi (1.5x)';
+	}
+}
+@media screen and (min-resolution: 240dpi) and (orientation: portrait) {
+	:root::after {
+		content: 'Density: 240dpi (1.5x)\a Orientation: Portrait';
+	}
+}
+@media screen and (min-resolution: 240dpi) and (orientation: landscape) {
+	:root::after {
+		content: 'Density: 240dpi (1.5x)\a Orientation: Landscape';
 	}
 }
 @media screen and (min-resolution: 240dpi) and (min-width: 20em) {
@@ -171,6 +201,21 @@
 		content: 'Density: 240dpi (1.5x)\a Breakpoint: extraLarge 120em\a Orientation: Landscape';
 	}
 }
+@media screen and (min-resolution: 320dpi) {
+	:root::after {
+		content: 'Density: 320dpi (2x)';
+	}
+}
+@media screen and (min-resolution: 320dpi) and (orientation: portrait) {
+	:root::after {
+		content: 'Density: 320dpi (2x)\a Orientation: Portrait';
+	}
+}
+@media screen and (min-resolution: 320dpi) and (orientation: landscape) {
+	:root::after {
+		content: 'Density: 320dpi (2x)\a Orientation: Landscape';
+	}
+}
 @media screen and (min-resolution: 320dpi) and (min-width: 20em) {
 	:root::after {
 		content: 'Density: 320dpi (2x)\a Breakpoint: extraSmall 20em';
@@ -246,6 +291,21 @@
 		content: 'Density: 320dpi (2x)\a Breakpoint: extraLarge 120em\a Orientation: Landscape';
 	}
 }
+@media screen and (min-resolution: 480dpi) {
+	:root::after {
+		content: 'Density: 480dpi (3x)';
+	}
+}
+@media screen and (min-resolution: 480dpi) and (orientation: portrait) {
+	:root::after {
+		content: 'Density: 480dpi (3x)\a Orientation: Portrait';
+	}
+}
+@media screen and (min-resolution: 480dpi) and (orientation: landscape) {
+	:root::after {
+		content: 'Density: 480dpi (3x)\a Orientation: Landscape';
+	}
+}
 @media screen and (min-resolution: 480dpi) and (min-width: 20em) {
 	:root::after {
 		content: 'Density: 480dpi (3x)\a Breakpoint: extraSmall 20em';
@@ -319,6 +379,21 @@
 @media screen and (min-resolution: 480dpi) and (min-width: 120em) and (orientation: landscape) {
 	:root::after {
 		content: 'Density: 480dpi (3x)\a Breakpoint: extraLarge 120em\a Orientation: Landscape';
+	}
+}
+@media screen and (min-resolution: 640dpi) {
+	:root::after {
+		content: 'Density: 640dpi (4x)';
+	}
+}
+@media screen and (min-resolution: 640dpi) and (orientation: portrait) {
+	:root::after {
+		content: 'Density: 640dpi (4x)\a Orientation: Portrait';
+	}
+}
+@media screen and (min-resolution: 640dpi) and (orientation: landscape) {
+	:root::after {
+		content: 'Density: 640dpi (4x)\a Orientation: Landscape';
 	}
 }
 @media screen and (min-resolution: 640dpi) and (min-width: 20em) {

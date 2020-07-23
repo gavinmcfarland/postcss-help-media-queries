@@ -48,8 +48,6 @@ function createContentString(densitySize, densityName, breakpointSize, breakpoin
 
 export default postcss.plugin('postcss-help-media-queries', opts => {
 
-	// TODO: Merge user defined potions with defaults
-
 	let defaults = {
 		breakpoints: {
 			none: '',
@@ -73,7 +71,12 @@ export default postcss.plugin('postcss-help-media-queries', opts => {
 		]
 	}
 
-	opts = Object.assign(defaults, opts || {})
+	// Probably a nicer way to do this
+	opts = opts || {}
+
+	defaults.breakpoints = Object.assign(defaults.breakpoints, opts.breakpoints)
+
+	opts = defaults
 
 	let tooltipString = `
 :root::after {
