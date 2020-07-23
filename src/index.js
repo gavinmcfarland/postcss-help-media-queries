@@ -102,16 +102,18 @@ export default postcss.plugin('postcss-help-media-queries', opts => {
 
 	return (root) => {
 
-		root.prepend(postcss.parse(tooltipString))
+		if (process.env.NODE_ENV === 'development') {
 
-		for (const [densityName, densitySize] of Object.entries(opts.densities)) {
-			for (const [breakpointName, breakpointSize] of Object.entries(opts.breakpoints)) {
-				for (const orientationName of opts.orientation) {
+			root.prepend(postcss.parse(tooltipString))
 
-					let mediaQuery = createMediaQueryString(densitySize, breakpointSize, orientationName)
-					let content = createContentString(densitySize, densityName, breakpointSize, breakpointName, orientationName)
+			for (const [densityName, densitySize] of Object.entries(opts.densities)) {
+				for (const [breakpointName, breakpointSize] of Object.entries(opts.breakpoints)) {
+					for (const orientationName of opts.orientation) {
 
-					let mediaQueryString = `\
+						let mediaQuery = createMediaQueryString(densitySize, breakpointSize, orientationName)
+						let content = createContentString(densitySize, densityName, breakpointSize, breakpointName, orientationName)
+
+						let mediaQueryString = `\
 \n@media screen and ${mediaQuery} {
 	:root::after {
 		content: '${content}';
@@ -119,10 +121,12 @@ export default postcss.plugin('postcss-help-media-queries', opts => {
 }
 `
 
-					root.append(postcss.parse(mediaQueryString))
+						root.append(postcss.parse(mediaQueryString))
 
+					}
 				}
 			}
+
 		}
 
 	};
