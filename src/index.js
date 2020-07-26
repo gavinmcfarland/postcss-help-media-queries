@@ -30,7 +30,7 @@ function createContentString(densitySize, densityName, breakpointSize, breakpoin
 	let orientationString = ''
 
 	if (densitySize) {
-		densityString = `Density: ${densitySize} (${densityName})`
+		densityString = `Density: ${densitySize}~ (${densityName.toUpperCase()})`
 	}
 
 	if (breakpointSize) {
@@ -81,7 +81,7 @@ export default postcss.plugin('postcss-help-media-queries', opts => {
 	let tooltipString = `
 :root::after {
 	position: fixed;
-	font-family: -apple-system, BlinkMacSystemFont,'Arial', sans-serif;
+	font-family: sans-serif;
 	user-select: none;
 	pointer-events: none;
 	z-index: 999999;
@@ -92,14 +92,21 @@ export default postcss.plugin('postcss-help-media-queries', opts => {
 	line-height: 1.8;
 	box-sizing: border-box;
 	padding: 16px 24px;
-	border-radius: 4px;
+	border-radius: 16px;
 	white-space: pre-wrap;
 	text-transform: capitalize;
-	box-shadow: 0 10px 30px rgba( #000, 0.2 );
-	-webkit-backdrop-filter: blur(2px);
-	backdrop-filter: blur(2px);
-	background-color: rgba( #FFF, 0.95 );
-    color: #212121;
+	box-shadow: 0 10px 30px rgba(0,0,0, 0.2 );
+	-webkit-backdrop-filter: saturate(180%) blur(20px);
+	backdrop-filter: saturate(180%) blur(20px);
+	background-color: rgba(29, 29, 31, 0.72);
+	color: #fff;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root::after {
+		background-color: rgba(255,255,255,0.72);
+		color: #212121;
+	}
 }
 `
 
