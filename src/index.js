@@ -30,7 +30,7 @@ function createContentString(densitySize, densityName, breakpointSize, breakpoin
 	let orientationString = ''
 
 	if (densitySize) {
-		densityString = `Density: ${densitySize}~ (${densityName.toUpperCase()})`
+		densityString = `Density: ~${densitySize} (${densityName.toUpperCase()})`
 	}
 
 	if (breakpointSize) {
