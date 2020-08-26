@@ -6,12 +6,10 @@
 
 [PostCSS Help Media Queries] lets you ... in CSS.
 
+At the following at-rule at the top of your CSS to include the help-media-queries tooltip.
+
 ```pcss
-.example { ... }
-
-/* becomes */
-
-.example { ... }
+@help-media-queries;
 ```
 
 ## Usage

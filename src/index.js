@@ -114,16 +114,20 @@ export default postcss.plugin('postcss-help-media-queries', opts => {
 
 		if (process.env.NODE_ENV === 'development') {
 
-			root.prepend(postcss.parse(tooltipString))
+			root.walkAtRules((rule) => {
 
-			for (const [densityName, densitySize] of Object.entries(opts.densities)) {
-				for (const [breakpointName, breakpointSize] of Object.entries(opts.breakpoints)) {
-					for (const orientationName of opts.orientation) {
+				if (rule.name === "help-media-queries") {
 
-						let mediaQuery = createMediaQueryString(densitySize, breakpointSize, orientationName)
-						let content = createContentString(densitySize, densityName, breakpointSize, breakpointName, orientationName)
+					rule.before(postcss.parse(tooltipString))
 
-						let mediaQueryString = `\
+					for (const [densityName, densitySize] of Object.entries(opts.densities)) {
+						for (const [breakpointName, breakpointSize] of Object.entries(opts.breakpoints)) {
+							for (const orientationName of opts.orientation) {
+
+								let mediaQuery = createMediaQueryString(densitySize, breakpointSize, orientationName)
+								let content = createContentString(densitySize, densityName, breakpointSize, breakpointName, orientationName)
+
+								let mediaQueryString = `\
 \n@media screen and ${mediaQuery} {
 	:root::after {
 		content: '${content}';
@@ -131,11 +135,16 @@ export default postcss.plugin('postcss-help-media-queries', opts => {
 }
 `
 
-						root.append(postcss.parse(mediaQueryString))
+								rule.before(postcss.parse(mediaQueryString))
 
+							}
+						}
 					}
+
+					rule.remove();
 				}
-			}
+
+			})
 
 		}
 
