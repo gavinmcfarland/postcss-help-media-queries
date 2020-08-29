@@ -65,11 +65,11 @@ postcssHelpMediaQueries({
 </small>
 </details>
 
-[cli-img]: https://img.shields.io/travis/limitlessloop/postcss-help-media-queries/master.svg
+[cli-img]: https://img.shields.io/travis/limitlessloop/postcss-help-media-queries/master.svg?style=for-the-badge
 [cli-url]: https://travis-ci.org/limitlessloop/postcss-help-media-queries
-[git-img]: https://img.shields.io/badge/support-chat-blue.svg
+[git-img]: https://img.shields.io/badge/support-chat-blue.svg?style=for-the-badge
 [git-url]: https://gitter.im/postcss/postcss
-[npm-img]: https://img.shields.io/npm/v/postcss-help-media-queries.svg
+[npm-img]: https://img.shields.io/npm/v/postcss-help-media-queries.svg?style=for-the-badge&colorA=CD4A4A&colorB=B03737
 [npm-url]: https://www.npmjs.com/package/postcss-help-media-queries
 
 [PostCSS]: https://github.com/postcss/postcss
