@@ -6,11 +6,7 @@ module.exports = {
 		message: 'supports options usage',
 		options: {
 			breakpoints: {
-				extraSmall: '20em',
-				small: '30em',
-				medium: '40em',
-				large: '80em',
-				extraLarge: '120em'
+				extraSmall: '20em'
 			}
 		}
 	}
