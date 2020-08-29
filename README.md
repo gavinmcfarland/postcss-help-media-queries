@@ -46,7 +46,24 @@ postcss([
 
 ## Options
 
-...
+<details open>
+<summary><b>breakpoints</b> <code>object</code></summary>
+<small>Define the custom <b>min-width</b> breakpoints to watch and show inside the balloon message.
+
+```js
+postcssHelpMediaQueries({
+  breakpoints: {
+    none: '',
+    extraSmall: '30em',
+    small: '48em',
+    medium: '60em',
+    large: '80em',
+    extraLarge: '100em'
+  }
+})
+```
+</small>
+</details>
 
 [cli-img]: https://img.shields.io/travis/limitlessloop/postcss-help-media-queries/master.svg
 [cli-url]: https://travis-ci.org/limitlessloop/postcss-help-media-queries
