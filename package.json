@@ -1,7 +1,7 @@
 {
   "name": "postcss-help-media-queries",
   "version": "1.0.0-alpha",
-  "description": "... in CSS",
+  "description": "lets you see some informations about the active breakpoint (media query), screen density and orientation directly inside the page",
   "author": "limitlessloop <5551+limitlessloop@users.noreply.github.com>",
   "license": "CC0-1.0",
   "repository": "limitlessloop/postcss-help-media-queries",
