@@ -50,6 +50,7 @@ export default postcss.plugin('postcss-help-media-queries', opts => {
 
 	let defaults = {
 		breakpoints: {
+			none: '',
 			extraSmall: '30em',
 			small: '48em',
 			medium: '60em',
@@ -73,8 +74,11 @@ export default postcss.plugin('postcss-help-media-queries', opts => {
 	// Probably a nicer way to do this
 	opts = opts || {}
 
-	defaults.breakpoints = opts.breakpoints || defaults.breakpoints;
-	defaults.breakpoints.none = ''
+	if (opts && opts.breakpoints) {
+		defaults.breakpoints = {}
+		defaults.breakpoints.none = ''
+		defaults.breakpoints = Object.assign(defaults.breakpoints, opts.breakpoints)
+	}
 
 	opts = defaults
 
