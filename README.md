@@ -53,7 +53,6 @@ postcss([
 ```js
 postcssHelpMediaQueries({
   breakpoints: {
-    none: '',
     extraSmall: '30em',
     small: '48em',
     medium: '60em',
