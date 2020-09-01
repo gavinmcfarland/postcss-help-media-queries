@@ -59,7 +59,8 @@ postcssHelpMediaQueries({
     small: '48em',
     medium: '60em',
     large: '80em',
-    extraLarge: '100em'
+    extraLarge: '100em',
+    // Other breakpoints..
   }
 })
 ```
